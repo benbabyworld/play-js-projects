@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+body {
+    background-color: #e9cdcd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.btn {
+    background-color: cadetblue;
+    color: #fff;
+    cursor: pointer;
+    border-radius:5px ;
+    font-size: 12px;
+    padding: 5px 12px;
+
+}
+
+.money-img {
+    width: 60%;
+}
+
+.currency {
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.currency select {
+    padding: 10px 20px 10px 10px;
+    border: 1px;
+    font-size: 16px;
+    background: transparent;
+    appearance: none;
+}
+
+.currency input {
+    border:0;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+}
+
+.swap-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rate {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+select:focus,input:focus,button:focus {
+    outline: 0;
+}
